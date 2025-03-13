@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: montserrat;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.main{
+    width: 100%;
+    height: 100%;
+    padding: 1px;
+}
+nav h2{
+    background-image: linear-gradient( to right, red,green, 60%, yellow);
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-size: 2vw;
+    margin: 1vw 1vw;
+}
+.section1 ol{
+    background-color: turquoise;
+    height: 18vh;
+    width: 60%;
+    padding: 0.5vw 42vw;
+    list-style: none;
+    margin: 1vw 5vw;
+    border:3px solid red;
+    border-radius: 10vh;
+}
+.section1 ol li{
+    width: 10vw;
+}
+.section1 ol li a{
+    font-size: 1.6vw;
+    text-decoration: none;
+    font-weight: 600;
+}
+.content{
+    background-color: rgb(196, 62, 62);
+    display: grid;
+    grid-template-columns: 30vw 30vw 30vw;
+    grid-template-rows: 12vw 12vw;
+    gap: 8px;
+    border: 4px solid black;
+    border-radius: 20px;
+    padding: 2vw;
+}
+.box4{
+    grid-column-start:2 ;
+}
+.box{
+    background-color: yellowgreen;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 2vw;
+    font-size: 1.3vw;
+}
+.section2{
+    background-image: linear-gradient(to right, red, yellow 50%,red);
+    text-align: center;
+    height: 5vh;
+    text-transform: uppercase;
+    text-decoration: underline;
+    padding: 0.5vw 0vw;
+    margin: 1vw 0vw;
+}
+.score{
+    background-image: radial-gradient(rgba(124, 170, 8, 0.718),rgb(215, 9, 230),rgb(209, 122, 9));
+    height: 15vw;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+.div{
+    margin: 2vw 1.5vw;
+    background-color: rgb(213, 223, 22);
+    height: 20vh;
+    width: 20vw;
+    padding: 2vw 2vw;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+.div h3{
+    text-align: center;
+    text-decoration: underline;
+}
+.footer{
+    margin: 1vw 0vw;
+    display: grid;
+    grid-template-columns: 20vw 22vw 23vw  ;
+    grid-template-rows: 3vw 6vw  6vw  3vw;
+    gap:1vw;
+     border: 4px solid black;
+     background-color: #0848a7;
+}
+.footer h2{
+    background-color: red;
+    grid-column: 1/6;
+    text-align: center;
+    padding: 0.5vw ;
+    text-transform: uppercase;
+    font-size: 2vw;
+    font-weight: 700;
+ 
+}
+
+.foo{
+    background-color: yellow;
+    /* border: 3px solid rgb(71, 44, 44); */
+    font-size: 1.5vw;
+    color: #fff;
+}
+.foo1{
+    background-color: #90EE90;
+}
+.foo2{
+    background-color: #ADD8E6;
+}
+.foo3{
+    background-color: #9e4bc8;
+}
+.foo4{
+    background-color: #FFA500;
+    grid-column: 1/4;
+    padding: 1vw 1vw;
+    font-size: 1.6vw;
+    color: #eeecea;
+}
+.foo5{
+    background-color: aqua;
+    grid-column: 4;
+    grid-row: 2/4;
+    padding: 1vw 2vw;
+    color: #000;
+   
+}
+.foo5 ol li{
+    list-style: none;
+    font-size: 1.4vw;
+}
